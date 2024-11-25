@@ -1,6 +1,6 @@
 body,
 html {
-  scroll-behavior: auto;
+  scroll-behavior: smooth;
 }
 body {
   -webkit-font-smoothing: antialiased;
@@ -39,6 +39,7 @@ body {
   line-height: 1.6;
   background: rgb(212, 225, 242);
   font-family: "Montserrat", sans-serif;
+  padding-top: 200px; /* Match the navbar height */
 }
 .head {
   width: 100%;
